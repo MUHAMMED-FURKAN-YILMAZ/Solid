@@ -1,0 +1,30 @@
+  Programcilar yillar icerisinde sorunlari cozmek icin tasarim desenleri olusturdular. Fakat
+sorunlar cozulduyse de yeni sorunlari da beraberinde getirmisti. Bu sorunlar karsisinda cozum
+olarak SOLiD  ortaya cikmistir.
+
+    SOLiD, 2000’li yillarin basinda Robert C. Martin tarafindan nesne tabanli programlama icin
+ortaya cikartilmistir ve 5 ilkesi bulunmaktadir.
+
+
+
+        S ingle Responsibilty Principle
+        O pen-Close Principle
+        L iskov Substitution Principle
+        i nterface Segregation Principle
+        D ependency inversion Principle
+
+
+
+        ---> S      Olusturulan nesnelerin ya da fonksiyonlarin tek bir gorevi olmalidir.
+                    Sadece kendisine verilen o gorevi yapmali ve ondan sorumlu olmalidir.
+
+        ---> O      Olusturulan nesnelerimiz ya da fonksiyonlarimiz gelistirmeye acik ancak
+                    degisime kapali olmalidir. projemizde onceden yazilan kodlari degistirerek
+                    degil, var olan kodlara yeni eklemeler yaparak sorunlari cozmeliyiz.
+
+        ---> L      Tureyen siniflar base sinifin butun ozelliklerini kullanmak zorundadir.
+
+        ---> i      Siniflarimizin(nesnelerimizin) kullanmadiklari veya ihtiyac duymadiklari
+                    ozelliklerin mumkun mertebe interfacelere ayristirilmasidir.
+
+        ---> D      Ekstra aciklamaya gerek yok, Spring deki @Autowired in yapdigi, bagimliliklarin azaltilmasi
